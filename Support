@@ -1,0 +1,144 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="utf-8" />
+<meta name="viewport" content="width=device-width, initial-scale=1" />
+<title>Night Dice — Help &amp; Support</title>
+<style>
+  :root {
+    --bg: #223843;
+    --card: rgba(239,241,243,0.06);
+    --line: rgba(219,211,216,0.18);
+    --ink: #EFF1F3;
+    --muted: #DBD3D8;
+    --accent: #D77A61;
+    --sand: #D8B4A0;
+  }
+  * { box-sizing: border-box; }
+  body {
+    margin: 0;
+    background: var(--bg);
+    color: var(--ink);
+    font-family: -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, Helvetica, Arial, sans-serif;
+    line-height: 1.6;
+    -webkit-font-smoothing: antialiased;
+  }
+  .wrap { max-width: 740px; margin: 0 auto; padding: 48px 22px 80px; }
+  header { margin-bottom: 28px; }
+  .brand { font-weight: 800; letter-spacing: 2px; font-size: 14px; color: var(--muted); }
+  .brand b { color: var(--accent); }
+  h1 { font-size: 30px; font-weight: 800; margin: 14px 0 6px; }
+  .sub { color: var(--sand); font-size: 16px; }
+  h2 { font-size: 20px; margin: 36px 0 10px; }
+  h3 { font-size: 16px; margin: 18px 0 4px; color: var(--sand); }
+  p, li { color: var(--ink); }
+  a { color: var(--accent); }
+  ul, ol { padding-left: 20px; }
+  li { margin: 6px 0; }
+  .card {
+    background: var(--card);
+    border: 1px solid var(--line);
+    border-radius: 14px;
+    padding: 16px 20px;
+    margin: 14px 0;
+  }
+  .faq h3 { margin-top: 0; }
+  .pill {
+    display: inline-block;
+    background: rgba(215,122,97,0.18);
+    color: var(--accent);
+    font-weight: 700; font-size: 13px;
+    border-radius: 999px; padding: 4px 12px; margin-bottom: 10px;
+  }
+  .steps li { margin: 8px 0; }
+  footer { margin-top: 48px; border-top: 1px solid var(--line); padding-top: 18px; color: var(--muted); font-size: 13px; }
+  footer a { color: var(--sand); }
+</style>
+</head>
+<body>
+  <div class="wrap">
+    <header>
+      <div class="brand">NIGHT <b>DICE</b></div>
+      <h1>Help &amp; Support</h1>
+      <div class="sub">Rules and a scorekeeper for classic dice games.</div>
+    </header>
+
+    <h2>Getting started</h2>
+    <ol class="steps">
+      <li><strong>Pick a game</strong> from the home screen — each card shows the
+      players and number of variations.</li>
+      <li><strong>Read the rules</strong> any time with the book icon, or from the
+      <em>Rules</em> button on the home screen.</li>
+      <li><strong>Start a game:</strong> add players (names are optional — blank slots
+      become "Player 1," "Player 2," and so on), choose a variation, then tap
+      <em>Start Game</em>.</li>
+      <li><strong>Keep score:</strong> most games use quick +/− buttons with a running
+      total; Yard Dice and Bunco use a tap-to-enter scorecard that totals automatically.</li>
+      <li><strong>Finish</strong> to crown a winner and save the game to your History.</li>
+    </ol>
+
+    <h2>Frequently asked questions</h2>
+
+    <div class="card faq">
+      <h3>Do I need an internet connection?</h3>
+      <p>No. Night Dice works completely offline.</p>
+    </div>
+
+    <div class="card faq">
+      <h3>Where is my data stored? Is any of it sent anywhere?</h3>
+      <p>Everything — player names, scores, and saved games — is stored only on your
+      device and is never transmitted. See our
+      <a href="privacy.html">Privacy Policy</a> for details.</p>
+    </div>
+
+    <div class="card faq">
+      <h3>Can I pause a game and come back to it?</h3>
+      <p>Yes. Your in-progress game is saved automatically. When you return to the home
+      screen, tap <em>Resume Game</em> to pick up where you left off. Starting a brand-new
+      game will replace the one in progress.</p>
+    </div>
+
+    <div class="card faq">
+      <h3>How do I delete my saved games?</h3>
+      <p>Open <em>History</em> and remove individual games, discard an in-progress game
+      from the Resume card, or delete the app to remove all data at once.</p>
+    </div>
+
+    <div class="card faq">
+      <h3>Are these the "official" rules?</h3>
+      <p>The rules are original, plain-language summaries written to help you play. They
+      are not affiliated with, endorsed by, or copied from any game publisher. House rules
+      vary widely — agree on yours before you start, and use the in-app variations as a
+      guide.</p>
+    </div>
+
+    <div class="card faq">
+      <h3>One game needs special equipment — why?</h3>
+      <p>Bounce Die is a toss-and-catch board game that uses a dedicated board and a
+      specialty bounce die (sold as a set). The app keeps score; you supply the gear.</p>
+    </div>
+
+    <div class="card faq">
+      <h3>Why is the app rated for older audiences?</h3>
+      <p>Some traditional games reference alcohol as the stakes (for example, deciding who
+      buys the next round). The app itself only keeps score.</p>
+    </div>
+
+    <h2>Play responsibly</h2>
+    <p class="card">Several games in Night Dice come from bar and party traditions. If your
+    group chooses to play with drinks, please do so responsibly and only where it is legal
+    for everyone involved. Never drink and drive. The non-drinking framing and "set your own
+    stakes" options work just as well.</p>
+
+    <h2>Contact us</h2>
+    <p>Need help, found a bug, or have a suggestion? Email
+    <a href="mailto:YOUR_EMAIL@example.com">YOUR_EMAIL@example.com</a> and we'll get back to you.</p>
+
+    <footer>
+      Night Dice is an unofficial scorekeeping and rules-reference app. Game names are used
+      descriptively to identify traditional games; any trademarks belong to their respective
+      owners. &nbsp;·&nbsp; <a href="privacy.html">Privacy Policy</a>
+    </footer>
+  </div>
+</body>
+</html>
